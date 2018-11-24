@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>El Tiempo</title>
+  <link href="https://www.tiempo.es/"/>
+  <updated>2003-12-13T18:30:02Z</updated>
+  <author>
+    <name>José Ángel Yubero</name>
+  </author>
+  <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+
+  <entry>
+    <title>El Tiempo en Meco</title>
+    <link href="https://www.tiempo.es/madrid-meco-es0ma0082.html"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <updated>2018-11-22T17:30:02Z</updated>
+    <summary>Aquí se indica el tiempo que hará en Meco los próximos días.</summary>
+  </entry>
+
+</feed>
