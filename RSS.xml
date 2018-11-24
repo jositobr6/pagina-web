@@ -2,13 +2,18 @@
 <rss version="2.0">
 
 <channel>
-  <title>El tiempo</title>
+  <title>Noticias</title>
   <link>https://www.tiempo.es/</link>
-  <description>Página Web que muetra el tiempo</description>
+  <description>Página Web que muestra la ctualidad en nuestro país</description>
   <item>
-    <title>Meco</title>
+    <title>El tiempo en Meco</title>
     <link>https://www.tiempo.es/madrid-meco-es0ma0082.html</link>
-    <description>El tiempo en Meco</description>
+    <description>Aquí s emuestra el tiempo que hará en Meco durante los próximos días</description>
+  </item>
+  <item>
+  <title>La NASA pone fecha al primer lanzamiento de prueba para las misiones tripuladas de SpaceX</title>
+  <link>https://elchapuzasinformatico.com/2018/11/la-nasa-pone-fecha-al-primer-lanzamiento-de-prueba-para-las-misiones-tripuladas-de-spacex/</link>
+  <description>Se firma un acuerdo entre la NASA y SpaceX</description>
   </item>
 </channel>
 
