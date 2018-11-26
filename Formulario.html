@@ -1,0 +1,107 @@
+<html>
+<meta charset="UTF-8">
+<head>
+<link rel="stylesheet" type="text/css" href="Formulario CSS.css">
+<h1><center>Formulario</center></h1></head>
+<body style="background-image:url('./img/fondopag1')">
+	<div class="pagination">
+  	<a href="#">&laquo;</a>
+  	<a href="#Datos personales">1</a>
+  	<a href="#Información Adicional">2</a>
+	  <a href="#Final">&raquo;</a>
+	</div>
+	<div>
+	<form action="/action_page.php"
+		oninput="x.value=parseInt(a.value)-parseInt(b.value)+parseInt(c.value)">
+		<fieldset>
+		<legend id="Datos personales"> Datos personales </legend>
+		Nombre:<br>
+		<input class="nombre" type="text" placeholder="Nombre"
+		name="firstname" required
+		autofocus>
+		<br>
+		Apellido:<br>
+		<input class="apellido" type="text" placeholder="Apellido"
+		name="lastname" required><br><br>
+		<label>Contraseña: </label><input type="password" name="pwd" placeholder="Introduzca contraseña aquí" required>
+		Encriptación: <keygen name="security"><br><br>
+		Fecha de la Última Fiesta: <input placeholder="yyyy/mm/dd" id="date" type="date" name="lastpartyday" max="2002-01-01" min="1918-01-01">
+		<br><br>
+		<legend>Comunidad Autónoma:</legend>
+		<select name="Comunidad Autónoma" multiple>
+		<option value="Galicia">Galicia</option>
+		<option value="La Rioja">La Rioja</option>
+		<option value="País Vasco">País Vasco</option>
+		<option value="Madrid" selected >Madrid</option>
+		<option value="Cataluña">Cataluña</option>
+		<option value="Asturias">Asturias</option>
+		<option value="Castilla la Mancha">Castilla la Mancha</option>
+		<option value="Castilla y León">Castilla y León</option>
+		<option value="Islas Baleares">Islas Baleares</option>
+		<option value="Islas Canarias">Islas Canarias</option>
+		<option value="Andalucía">Andalucía</option>
+		<option value="Cantabria">Cantabria</option>
+		<option value="Aragón">Aragón</option>
+		<option value="Extremadura">Extremadura</option>
+		<option value="Valencia">Valencia</option>
+		<option value="Navarra">Navarra</option>
+		<option value="Murcia">Murcia</option>
+		</select><br><br>
+		<legend>Sexo:</legend>
+		<input type="radio" name="sex" value="male"/>Hombre<br>
+		<input type="radio" name="sex" value="female"/>Mujer<br>
+		<input type="radio" name="sex" value="another"/>Otro<br>
+		<br><br>
+		</fieldset><br>
+		<fieldset id="Información Adicional">
+		<legend align="right">Información adicional</legend>
+		<legend>Bebidas Consumidas:</legend>
+		<input type="checkbox" name="Vodka" value="Vodka"/>Vodka<br>
+		<input type="checkbox" name="Whisky" value="Whisky"/>Whisky<br>
+		<input type="checkbox" name="Ron" value="Ron"/>Ron<br>
+		<input type="checkbox" name="Cerveza" value="Cerveza"/>Cerveza<br>
+		<input type="checkbox" name="Tequila" value="Tequila"/>Tequila<br>
+		<br><br>
+		
+		<textarea rows="7" cols="20">Rellene el siguiente formulario.</textarea><br>
+		<input type="submit"
+		value="Registrar">
+		<input type="reset"
+		value="Limpiar"><br><br>
+		<button onclick="alert('¡Deja de Fumar!');">Si fumas </button><br><br>
+		<legend>Email:</legend>
+		<input type="email"><br><br>
+		<legend>URL:</legend>
+ 		<input type="url"><br><br>
+		<legend>Edad:</legend>
+		<input type="number" max="100" min="16">
+		<br><br>
+		<legend>Mes de Nacimiento:</legend>
+		<input list="Mes de nacimiento">
+		<datalist id="Mes de nacimiento" multiple>
+		<option value="Enero">Enero</option>
+		<option value="Febrero">Febrero</option>
+		<option value="Marzo">Marzo</option>
+		<option value="Abril" selected >Abril</option>
+		<option value="Mayo">Mayo</option>
+		<option value="Junio">Junio</option>
+		<option value="Julio">Julio</option>
+		<option value="Agosto">Agosto</option>
+		<option value="Septiembre">Septiembre</option>
+		<option value="Octubre">Octubre</option>
+		<option value="Noviembre">Noviembre</option>
+		<option value="Diciembre">Diciembre</option>
+		</datalist><br><br>
+		<br>
+		0	<input type="range" id="a" name="a" value="100">
+		200 -	<input type="number" id="b" name="b" value="100" step="2">
+		+	<input type="number" id="c" name="c" value="0" step="5">
+		=	<output name="x" for="a b c"></output>
+		<br><br>
+		<input type="submit" value="HECHO">
+		</fieldset>
+	</form>
+	<a id="Final">
+	</a>
+</body>
+</html>
