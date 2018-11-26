@@ -1,0 +1,81 @@
+
+input[type=text] {
+    width: 40%;
+    padding: 10px 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px white; /*esto cuenta como borde*/
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    color: black;
+		}
+
+.nombre {
+	background-image: url('./img/nombre.png');
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+	}
+	.apellido {
+	background-image: url('./img/apellido.png');
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+	}
+	textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+select, datalist {
+    width: 22%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+input {
+	background-color: #f1f1f1;
+	}
+	
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #58D3F7;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+     input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+	}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #58FA58;
+    border-radius: 5px;
+}
