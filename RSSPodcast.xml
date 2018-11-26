@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+
+<channel>
+  <title>Podcast</title>
+  <link>http://cadenaser.com/ser/podcasts/</link>
+  <description>Página Web que muestra varios podcast de la Cadena SER</description>
+  <item>
+    <title>Historia</title>
+    <link>http://fapi-top.prisasd.com/podcast/playser/ser_historia/itunestfp/podcast.xml</link>
+    <description>Aquí se muestran los podcast de la sección de historia</description>
+  </item>
+
+  <item>
+  <title>La Vida Moderna</title>
+  <link>https://elchapuzasinformatico.com/2018/11/la-nasa-pone-fecha-al-primer-lanzamiento-de-prueba-para-las-misiones-tripuladas-de-spacex/</link>
+  <description>Aquí se muestrasn los podcast del programa cómico de La Vida Moderna</description>
+  </item>
+</channel>
+
+</rss>
