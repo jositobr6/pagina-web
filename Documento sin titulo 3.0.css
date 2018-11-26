@@ -1,0 +1,104 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table, th, td {
+    text-align: center;
+}
+nav a:hover {
+	display:inline;
+	width: 60px;
+	background-color:#ffffcc;
+	}
+.city { 
+	color:white;
+	}
+.nepe {
+	color:white;
+	background:#cc0000;
+}
+
+.dioni {
+	color:#FFBF00;
+	background:#3366ff;
+}
+
+.mapache {
+	background:purple;
+	border-color:white;
+	border-style:dotted solid;
+	}
+
+.one {
+    border-style: solid;
+    border-width: 5px;
+    background:#33ff99;
+    text-align: center;
+    overflow: hidden;
+    margin: 50px;
+    padding: 0px;
+}
+
+body {
+	background-image:url("Fondo.jpeg");
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background:#33ff99;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
