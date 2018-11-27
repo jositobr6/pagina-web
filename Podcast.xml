@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+
+<channel>
+  <title>Podcast</title>
+  <link>https://jositobr6.github.io/</link>
+  <description>Página Web que muestra un podcast super chuli</description>
+  
+  <item>
+  <title>Música</title>
+  <enclosure url="https://jositobr6.github.io/pagina-web/Haddaway%20-%20What%20Is%20Love%20%5BOfficial%5D.mp3" length="5675" type="audio/mpeg" />
+ <description>Aquí teneis música para vuestro deleite</description>
+  </item>
+</channel>
+
+</rss>
