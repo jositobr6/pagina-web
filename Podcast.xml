@@ -3,19 +3,9 @@
 
 <channel>
   <title>Podcast</title>
-  <link>http://cadenaser.com/ser/podcasts/</link>
+  <link>https://jositobr6.github.io/</link>
   <description>Página Web que muestra varios podcast de la Cadena SER</description>
-  <item>
-    <title>Historia</title>
-    <link>http://fapi-top.prisasd.com/podcast/playser/ser_historia/itunestfp/podcast.xml</link>
-    <description>Aquí se muestran los podcast de la sección de historia</description>
-  </item>
-
-  <item>
-  <title>La Vida Moderna</title>
-  <link>https://fapi-top.prisasd.com/podcast/playser/1_playser/itunestfp/oh_my_lol_la_vida_moderna/audios.xml</link>
-  <description>Aquí se muestran los podcast del programa cómico de La Vida Moderna</description>
-  </item>
+  <enclosure url="https://jositobr6.github.io/pagina-web/Haddaway%20-%20What%20Is%20Love%20%5BOfficial%5D.mp3" length="5675" type="audio/mpeg" />
 </channel>
 
 </rss>
