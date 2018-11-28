@@ -1,0 +1,28 @@
+
+.newspaper {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    -webkit-column-rule-style: solid;
+    -moz-column-rule-style: solid;
+    -moz-column-rule: 1px green solid;
+    -webkit-column-rule: 1px green solid;
+    }
+ 
+ @keyframes example {
+    from {background-color: white;}
+    to {background-color: pink;}
+}
+
+ div {
+    background-color: white;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+ h1 {
+    text-shadow: 2px 2px 5px green;
+    background-image: linear-gradient(red, yellow, red);
+}
+ 
