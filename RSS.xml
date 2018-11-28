@@ -3,7 +3,7 @@
 
 <channel>
   <title>Noticias</title>
-  <link>https://www.tiempo.es/</link>
+  <link>https://jositobr6.github.io/pagina-web/</link>
   <description>Página Web que muestra la actualidad en nuestro país</description>
   <item>
     <title>El tiempo en Meco</title>
@@ -12,9 +12,9 @@
   </item>
 
   <item>
-  <title>La NASA pone fecha al primer lanzamiento de prueba para las misiones tripuladas de SpaceX</title>
-  <link>https://elchapuzasinformatico.com/2018/11/la-nasa-pone-fecha-al-primer-lanzamiento-de-prueba-para-las-misiones-tripuladas-de-spacex/</link>
-  <description>Se firma un acuerdo entre la NASA y SpaceX</description>
+  <title>Los tres cerditos no tan felices</title>
+  <link>https://jositobr6.github.io/pagina-web/Articulo.html</link>
+  <description>Esta es la historia de los tres cerditos</description>
   </item>
 </channel>
 
